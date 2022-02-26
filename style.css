@@ -22,12 +22,44 @@ body {
 }
 .image {
   padding: 5%;
+  position: relative;
 }
 
-.image img {
+.cube {
   width: 100%;
   border-radius: 7px;
   margin-bottom: 10px;
+}
+
+.eye:hover {
+  opacity: 1;
+  transition: 1s;
+}
+.eye:hover > .eyeicon {
+  opacity: 1;
+  transition: 1s;
+}
+
+.eye {
+  position: absolute;
+  background: rgb(0, 255, 255, 0.5);
+  width: 90%;
+  height: 315px;
+  margin: 0 auto;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 7px;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.eyeicon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
 }
 
 .vis {
