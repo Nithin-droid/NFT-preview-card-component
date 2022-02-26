@@ -62,9 +62,6 @@ body {
   opacity: 0;
 }
 
-.vis {
-  visibility: hidden;
-}
 .equilibrium {
   font-size: 18px;
   margin-bottom: 10px;
